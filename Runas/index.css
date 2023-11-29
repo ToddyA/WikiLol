@@ -1,0 +1,154 @@
+body {
+    font-family: "Rubik";
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: white;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+.logo{
+    position: relative;
+    background-size: cover;
+    height: 100px;
+    width: 230px;
+    margin-bottom: -80px;
+    margin-left: -70%;
+    z-index: 2;
+}
+
+.linha{
+    margin-left: 370px;
+    text-align: center;
+    width: 50%;
+    color: #D9D9D9;
+}
+
+
+
+
+
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #212020;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+footer {
+    text-align: center;
+    padding: 9px;
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+}
+
+h1{
+    text-align: center;
+    font-size: 24px;
+    font-family: "Rubik";
+    color: white;
+}
+
+h2{
+   font-size: 26px;
+   font-family: "Rubik"
+   color white;
+}
+
+h3{
+   font-size: 20px;
+   font-family: "Rubik";
+   color: white;
+}
+
+div{ 
+    text-align: center;  
+}
+
+p{
+  text-align: justify;
+  font-size: 17px;
+  font-family: "Rubik";
+  line-height: 1.6;
+  color: white;
+}
+
+li{
+   color: #fff;
+}
+
+.img{
+    width: 10px;
+    height: 10px;
+}
+
+.title{
+    color: #fff;
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ano{
+     font-size: 15px;
+     text-align: center;
+}
+header {
+    background-image: url("../imagens/logo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fefefe;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.logo{
+    position: relative;
+    background-size: cover;
+    height: 100px;
+    width: 230px;
+    margin-bottom: -80px;
+    margin-left: -70%;
+    z-index: 2;
+}
+
+.linha{
+    margin-left: 370px;
+    text-align: center;
+    width: 50%;
+    color: #D9D9D9;
+}
+
+
+h1 {
+    margin-bottom: 5px;
+    font-family: "Rubik";
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.main-nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 3px;
+    margin: 0 5px;
+    font-family: "Rubik";
+}
