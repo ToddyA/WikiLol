@@ -1,0 +1,177 @@
+body {
+    font-family: "Arial", "Helvetica", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("./src/imagens/bb2zo7dh00c11.png");
+    color: #000000;
+    overflow-x: hidden; /* Impede a barra de rolagem horizontal */
+}
+
+
+
+.region-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0px;
+    max-width: 100%;
+}
+
+.region-card {
+    position: relative;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 60px;
+    margin: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.region-card:hover {
+    transform: scale(1.05);
+}
+
+.region-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(184, 165, 165, 0.1);
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.region-card:hover::before,
+.region-card.clicked::before {
+    opacity: 1;
+}
+
+.region-card h2,
+.region-card p {
+    position: relative;
+    z-index: 1;
+    color: white;
+    font-family: "Rubik"; /* Substitua "NomeDaFonte" pela fonte desejada */
+    
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.hidden-content {
+    display: none;
+}
+
+.region-card.clicked .hidden-content {
+    display: block;
+}
+
+/* Backgrounds específicos para cada classe */
+.demacia {
+    background-image: url('./src/imagens/Rdema.jpg');
+    background-size: cover;
+}
+
+.ionia {
+    background-image: url('./src/imagens/ionia.jpg');
+    background-size: cover;
+}
+
+.freljord {
+    background-image: url('./src/imagens/frel.jpg');
+    background-size: cover;
+}
+
+.shurima {
+    background-image: url('./src/imagens/Shurima.png');
+    background-size: cover;
+}
+
+.zaun-piltover {
+    background-image: url('./src/imagens/zaunn.jpg');
+    background-size: cover;
+}
+
+.bilgewater {
+    background-image: url('./src/imagens/bilg.jpg');
+    background-size: cover;
+}
+
+.shadow-isles {
+    background-image: url('./src/imagens/ilha.jpg');
+    background-size: cover;
+}
+
+.mount-targon {
+    background-image: url('./src/imagens/targon.jpg');
+    background-size: cover;
+}
+
+.void {
+    background-image: url('./src/imagens/void.jpg');
+    background-size: cover;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+header {
+    background-image: url("../imagens/logo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fefefe;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.logo{
+    position: relative;
+    background-size: cover;
+    height: 100px;
+    width: 230px;
+    margin-bottom: -80px;
+    margin-left: -70%;
+    z-index: 2;
+}
+
+.linha{
+    margin-left: 370px;
+    text-align: center;
+    width: 50%;
+    color: #D9D9D9;
+}
+
+
+h1 {
+    margin-bottom: 5px;
+    font-family: "Rubik";
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.main-nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 3px;
+    margin: 0 5px;
+    font-family: "Rubik";
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="principalestil.css" />
+        
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <title>Wiki LoL</title>
+
+        <link rel="shortcut icon" href="./imagens/logo_guia.png" type="image/x-icon">
+    </head>
+    <body>
+        <div class="options">
+            <div class="option active" style="--optionBackground: url(https://api.blog.streetcred.gg/content/images/2021/03/league_of_legends.jpg);">
+                <div class="label">
+                    <div class="icon">
+                        <i class="fa-brands fa-fantasy-flight-games"></i>
+                    </div>
+                    <div class="info">
+                        <a href="./historia/historia.html">Historias</a>
+                        <div class="sub">Descubra tudo por trás da historia de runeterra!</div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="option" style="--optionBackground: url(./imagens/runas-lol.jpg); background-size: cover;">
+                <div class="label">
+                    <div class="icon">
+                        <i class="fa-brands fa-fantasy-flight-games"></i>
+                    </div>
+                    <div class="info">
+                        <a href="./Runas/runas.html">Runas</a>
+                        <div class="sub">Saiba Mais Sobre O Sistema De Runas</div>
+                    </div>
+                </div>
+            </div>
+            <div class="option" style="--optionBackground: url(./imagens/novidades.jpg);">
+                <div class="label">
+                    <div class="icon">
+                        <i class="fa-brands fa-fantasy-flight-games"></i>
+                    </div>
+                    <div class="info">
+                        <a href="./novidades/novidades.html">Novidades</a>
+                        <div class="sub">Fique Por Dentro Das Novidades e Eventos</div>
+                    </div>
+                </div>
+            </div>
+            <div class="option" style="--optionBackground: url(https://blog.saga.art.br/wp-content/uploads/2017/09/SAGA-BLOG-LOL-1080x675.jpg);">
+                <div class="label">
+                    <div class="icon">
+                        <i class="fa-brands fa-fantasy-flight-games"></i>
+                    </div>
+                    <div class="info">
+                        <a href="./campeoes/campeoes.html">Campeões</a>
+                        <div class="sub">Saiba Mais Sobre Os Campeões</div>
+                    </div>
+                </div>
+            </div>
+            <div class="option" style="--optionBackground: url(https://i.pinimg.com/originals/84/97/9e/84979ebb192013fefedbbdaa0cb2d32d.jpg);">
+                <div class="label">
+                    <div class="icon">
+                        <i class="fa-brands fa-fantasy-flight-games"></i>
+                    </div>
+                    <div class="info">
+                        <a href="./regioes/regioes.html">Regiões</a>
+                        <div class="sub">Explore as regiões de runeterra</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            $(".option").click(function () {
+                $(".option").removeClass("active");
+                $(this).addClass("active");
+            });
+        </script>
+    
+       <style>
+               * {
+                margin: 0;
+                padding: 0;
+                box-sizing: 0;
+               }
+               body{
+                   background-image: url(./fundo.jpg);
+                   background-size: cover;
+                   
+
+               }
+        
+       </style>
+
+
+
+
+
+</body>
+</html>
